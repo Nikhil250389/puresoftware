@@ -33,7 +33,7 @@ public class TC005_Delete_Employee_Record extends TestBase{
 	Response response;
 		
 	@BeforeClass
-	void deleteEmployee() throws InterruptedException
+	void deleteallEmployee() throws InterruptedException
 	{
 		logger.info("*********Started TC005_Delete_Employee_Record **********");
 		
